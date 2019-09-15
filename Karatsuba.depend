@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1568420150 source:c:\users\midiacom-desktop-vr\documents\github\eda2019-2\karatsuba\main.cpp
+	<cstdlib>
+	<stdio.h>
+	<stdlib.h>
+	<list>
+	<string>
+	<iostream>
+	<algorithm>
+	<time.h>
+
+1568410601 c:\users\midiacom-desktop-vr\documents\github\eda2019-2\karatsuba\integer.hpp
+	<string>
+	<functional>
+
+1568503557 source:d:\dropbox\pos graduações\doutorado em computação - uff\disiplinas\eda - 2019-2\github\eda2019-2\karatsuba\main.cpp
+	<cstdlib>
+	<stdio.h>
+	<stdlib.h>
+	<list>
+	<string>
+	<iostream>
+	<algorithm>
+	<time.h>
+
