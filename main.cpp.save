@@ -236,9 +236,9 @@ string karatsuba(const string& oper1, const string& oper2, int base){
 }
 
 int main(){
-    printf("UFF - Pos-graduacao em Computacao\nAnalise e Sintese de Algoritmos - 2019-2\n");
+    printf("UFF - Pos-graduacao em Computacao\nAnalise e Sintese de Algoritmos - 2019-2.\n");
     printf("Professor Luis Antonio Brasil Kowada\nAluno Flavio Miranda de Farias\n");
-    printf("Trabalho de analise de metodos de multiplicacao de strings numericas\n");
+    printf("Analise de metodos de multiplicacao de strings numericas.\n");
     while(1){
         fflush(stdin);
         //Para gerar multiplos testes de um mesmo valor, mudar o valor inicial
@@ -268,7 +268,7 @@ int main(){
         }
         cout << "\n---------------------------------------------------------------------";
         while(testes>0){
-            cout<<"\nCronometragem do algoritmo Karatsuba..." << endl;
+            cout << "\nCronometragem do algoritmo Karatsuba..." << endl;
             clock_t start = clock();
             if(exibir=='s') cout << "\nProduto= " << karatsuba(s1, s2, base)+"\n" << endl;
             else karatsuba(s1, s2, base);
@@ -282,6 +282,7 @@ int main(){
             if(exibir=='s') cout << "\nProduto= " << multPadrao(s1, s2, base)+"\n" << endl;
             else multPadrao(s1, s2, base);
             time = clock() - start;
+            printf("\n%lf\n",(float)time/CLOCKS_PER_SEC);
             cout << "Tempo gasto pela Multiplicacao Padrao = " << static_cast<float>(time) / CLOCKS_PER_SEC << " segundos." << endl;
             cout << "Segundo a funcao 4(T)+19n+3, foram realizados " << acesso << " acessos recursivos." << endl;
             acesso=0;
@@ -295,4 +296,3 @@ int main(){
             return 0;
     }
 }
-
