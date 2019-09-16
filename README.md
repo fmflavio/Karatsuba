@@ -23,10 +23,13 @@ Acompanhando o programa (fonte e executável), deve haver um relatório, descrev
 A entrega deve ser feita através de um arquivo compactado (.zip) incluindo o programa e o relatório.
 
 Execução
+
 Para executar o programa execute o atalho "Karatsuba" na raiz do projeto ou acesse na pasta "/bin/Karatsuba.exe".
 
 Dados tabulados
+
 Acesse a planilha "Tabulação dos Dados.xlsx" que se encontra na raiz do projeto.
 
 Relatório
+
 Acesse o documento "Relatório Karatsuba - Flávio.pdf" que se encontra na raiz do projeto.
