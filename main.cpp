@@ -242,13 +242,13 @@ int main(){
     while(1){
         fflush(stdin);
         //Para gerar multiplos testes de um mesmo valor, mudar o valor inicial
-        int base,t1,t2,i,testes=3;
+        int base,t1,t2,i,testes=1;
         //Para não exibir as strings, nao escolher 's'
         char repetir,exibir,temp;
         std::string s1,s2;
-        //printf("\nDeseja visualizar as strings? (s/n): ");
-        //scanf(" %c",&exibir);
-        exibir='n';//Para não exibir as strings em modo de teste, descomentar
+        printf("\nDeseja visualizar as strings? (s/n): ");
+        scanf(" %c",&exibir);
+        //exibir='n';//Para não exibir as strings em modo de teste, descomentar
         printf("Digite a Base: ");
         scanf(" %d",&base);
         printf("Tamanho da string 1: ");
