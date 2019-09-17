@@ -246,9 +246,9 @@ int main(){
         //Para não exibir as strings, nao escolher 's'
         char repetir,exibir,temp;
         std::string s1,s2;
-        printf("\nDeseja visualizar as strings? (s/n): ");
-        scanf(" %c",&exibir);
-        //exibir='n'; //Para não exibir as stri
+        //printf("\nDeseja visualizar as strings? (s/n): ");
+        //scanf(" %c",&exibir);
+        exibir='n';//Para não exibir as strings em modo de teste, descomentar
         printf("Digite a Base: ");
         scanf(" %d",&base);
         printf("Tamanho da string 1: ");
